@@ -1,0 +1,64 @@
+body {
+  background-color: #FA9905;
+}
+
+h1 {
+  color: #03045E;
+  font-size: 5rem;
+  font-family: 'Mochiy Pop One';
+  text-align: center;
+}
+
+footer {
+  color: #72147E;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Mochiy Pop One';
+  padding: 50px 2px;
+}
+
+div {
+  padding: 5px 70px;
+}
+
+.w {
+  background-image: url("tom1.png");
+}
+.a {
+  background-image: url("tom2.png");
+}
+.s {
+  background-image: url("tom3.png");
+}
+.d {
+  background-image: url("tom4.png");
+}
+.j {
+  background-image: url("snare.png");
+}
+.k {
+  background-image: url("crash.png");
+}
+.l {
+  background-image: url("kick.png");
+}
+
+.drum {
+  display: inline-block;
+  color: #F21170;
+  font-size: 3rem;
+  text-shadow: 3px 0 #00B4D8;
+  font-family: 'Mochiy Pop One';
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 10px;
+  border-color: #FF5200;
+  margin: 10px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #FB9696;
+  opacity: 0.5;
+}
